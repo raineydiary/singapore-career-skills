@@ -1,8 +1,8 @@
-# Singapore Career Skills · 新加坡求职 Claude Skills
+# Singapore Career Skills · 新加坡求职 AI Skills
 
-> 基于 NUS、NTU、SMU 三所高校就业指导中心的官方规范，以及 TAFEP 公平雇佣准则提炼而成的 Claude Skills。
+> 基于 NUS、NTU、SMU 三所高校就业指导中心的官方规范，以及 TAFEP 公平雇佣准则提炼而成的 AI Skills。
 >
-> Claude Skills for job hunting in Singapore, distilled from the official career-office standards of NUS, NTU, SMU, and Singapore's TAFEP fair employment guidelines.
+> AI Skills for job hunting in Singapore, distilled from the official career-office standards of NUS, NTU, SMU, and Singapore's TAFEP fair employment guidelines.
 
 Developed by **Rain 雨雨小天才**
 
