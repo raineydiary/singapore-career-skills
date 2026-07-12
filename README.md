@@ -10,7 +10,7 @@ Developed by **Rain 雨雨小天才**
 
 ## 为什么做这个 / Why this exists
 
-我是一名新加坡大厂面试官，过去这些年经手过 1000+ 份简历，面过 200+ 位候选人，也帮身边不少朋友和 mentee 一路改简历、模拟面试到拿下 offer。看得多了，有几件事越来越清楚。
+我是一名新加坡大厂面试官，过去这些年经手过 1000+ 份简历，面过 200+ 位候选人，也帮身边不少朋友从改简历、模拟面试到拿下 offer。一路走来我发现在外国人在新加坡求职的痛点和短板非常明显而集中：
 
 **1️⃣ 大家对高校求职官方资源的利用远远不足**
 
@@ -24,7 +24,11 @@ Developed by **Rain 雨雨小天才**
 
 本地学生多少能从学长学姐、就业中心口耳相传捡到一些潜规则；但对华语求职者、尤其是刚来新加坡的人，没有人会主动告诉你——GPA 要不要写、Work Authorization 怎么标、thank-you email 该多久内发出、哪些 terms 是面试大忌。这些差一步就出局的细节，偏偏最没人讲给你听。
 
-从 NUS、NTU、SMU 三所高校就业中心的简历与面试规范，到新加坡政府的 TAFEP 公平雇佣准则。**20份官方材料**、上万字规范里最专业、最精华的部分，全部提炼成 AI 可以一次性直接调用的规则集。让每个用上这些 Skills 的人，都能马上拥有一位既懂新加坡、又真的读过所有高校与政府官方文件的 SG Career Coach。
+## 你会得到什么 / What you get
+
+一位**读完了 20 份高校与政府官方文件**的新加坡求职教练，随叫随到。
+
+💡我把 NUS、NTU、SMU 三校就业中心的简历与面试规范，加上新加坡政府 TAFEP 的公平雇佣准则。共**20份官方材料**、**上万字规范**逐条提炼成 AI 能一次调用的规则集。装上之后，你可以直接让它改你的简历、陪你模拟面试、告诉你哪句话会让你出局。每一条建议，都指得回一份官方出处。
 
 Most Singapore job-hunting advice online is anecdotal. Every rule in these skills traces back to an official source: the resume and interview standards that Singapore's universities publish for their own students, plus the national fair employment guidelines. The work here is distillation — turning scattered PDFs and annotated templates into rule sets an AI can execute.
 
