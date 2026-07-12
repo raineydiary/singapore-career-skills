@@ -9,10 +9,18 @@ Developed by **Rain 雨雨小天才**
 ---
 
 ## 为什么做这个 / Why this exists
+我是一名新加坡大厂面试官，过去这些年经手过 1000+ 份简历，面过 200+ 位候选人，也帮身边不少朋友和 mentee 一路改简历、模拟面试到拿下 offer。看得多了，有几件事越来越清楚。
 
-网上的新加坡求职攻略很多，但大多是"我觉得"。
+**1️⃣ 大家对高校求职官方资源的利用远远不足**
+网上的新加坡求职攻略很多，但大多是"我觉得"。可事实上，NUS、NTU、SMU 三所高校的就业指导中心，早就白纸黑字写好了给自己学生的简历与面试标准——什么该放、什么绝对不能放、面试官到底在测什么，都有据可依。只是这些规范散落在几十份英文 PDF、模板批注和校内材料里，绝大多数人根本不知道它们存在，更别说读完。而这两个 Skills 里的每一条规则，都能指回这样一份官方文件；我做的事情，就是把这些分散的、英文的、藏在 PDF 批注里的规则，逐条提炼成 AI 可以直接执行的规则集。
 
-这两个 Skills 里的每一条规则，都能指回一份官方文件——新加坡三所高校就业指导中心（NUS CFG、NTU CAO、SMU DKHMCC）白纸黑字写给自己学生的简历与面试标准，以及新加坡官方的公平雇佣准则（TAFEP）。我做的事情是把这些分散的、英文的、藏在 PDF 批注里的规则，逐条提炼成 AI 可以直接执行的规则集。
+**2️⃣ 大家开始用 AI 求职，但 AI 也许不懂新加坡**
+越来越多人用 AI 改简历、做模拟面试，方向是对的。但通用 AI 并不了解新加坡高校的规范和本地求职标准：它会顺手给你一份通用简历，让你写 objective、堆形容词，却不会提醒你这里的简历不放照片、不写种族和出生日期，也不知道面试官问起你的婚育计划时，你其实可以怎么得体又合规地应对。它给的是一个"全球平均答案"，而不是"新加坡正确答案"。
+
+**3️⃣ 信息差在 non-local 身上被成倍放大。**
+本地学生多少还能从学长学姐、就业中心那里口耳相传捡到一些潜规则；但对华语求职者、尤其是刚来新加坡的人来说，没有人会主动告诉你这些，GPA 要不要写、Work Authorization 怎么标、thank-you email 该在多久内发出、什么terms是面试大忌。这些差一步就出局的细节，偏偏最没有人讲给你听。
+
+所以我做了这两个 Skills：把三校官方规范加上新加坡官方的公平雇佣准则（TAFEP），里面最专业、最规范、最精华的部分，全部提炼成 AI 可以一次性直接调用的规则集。让每个使用这些 skills的人，都能借到一位既懂新加坡、又真的读过所有高校+政府官方文件的SG Career Coach的判断。
 
 Most Singapore job-hunting advice online is anecdotal. Every rule in these skills traces back to an official source: the resume and interview standards that Singapore's universities publish for their own students, plus the national fair employment guidelines. The work here is distillation — turning scattered PDFs and annotated templates into rule sets an AI can execute.
 
@@ -26,7 +34,7 @@ Built by a hiring manager in Singapore tech, for Chinese-speaking job seekers na
 
 写、改、评新加坡求职简历。
 
-- **两档规则**：应届本科档（NTU 体系）/ 硕士与有经验档（SMU 体系），按身份自动切换
+- **两档规则**：(1)应届本科档，(2)硕士与有经验档，按身份自动切换
 - **中文简历也收**：负责转写成规范英文版，输出诊断报告 + 改好的 docx
 - **ATS 关键词对齐**：提供目标岗位 JD，简历向 JD 的 KSA 与行业关键词对齐
 - **本地合规**：照片、种族、出生日期、Work Authorization、GPA 门槛等新加坡特有规则
