@@ -50,6 +50,8 @@ Built by a hiring manager in Singapore tech, for Chinese-speaking job seekers na
 | **本地合规检查** | 照片、种族、出生日期、Work Authorization、GPA 门槛等新加坡特有红线 |
 | **300+ 动词库** | 按 9 大能力维度分类，配弱动词黑名单，杜绝"负责了""参与了" |
 | **数据诚实红线** | 绝不替你编数字，缺数据会追问，或用占位符标出让你补 |
+| **Source fidelity** | JD 只用于定制，不会把目标岗位技能、相邻工具或未确认关系拼成你的既有经历 |
+| **输出模式可锁定** | 默认 ATS-safe 单栏 `.docx`；也可指定 NUS-aligned、NTU、SMU、LaTeX，或上传模板后要求 `stick to supplied template` |
 
 ### 🎤 `sg-interview-prep`
 
@@ -81,11 +83,25 @@ Built by a hiring manager in Singapore tech, for Chinese-speaking job seekers na
 「帮我看看这份简历，我要投新加坡的岗位」+ 上传简历（中文的也可以）
 「我是 NTU 大三学生，帮我写一份新加坡实习简历」
 「新加坡简历要放照片吗？」
+「请用 NUS-aligned 单栏格式输出，不要改变我上传模板的字体和 section 顺序」
+「请输出 ATS-safe LaTeX，同时给我 .tex 和编译后的 PDF」
 
 「我下周面试新加坡的 data analyst，这是 JD，帮我准备」
 「帮我模拟面试」
 「面试官问我打不打算生孩子，我该怎么回答？」
 ```
+
+## 测试 / Evaluation
+
+`sg-resume-writing` 附带一组可重复运行的隐私安全测试：10 个虚构学生与 early-career profiles，覆盖本科、硕士、PhD、转职、NS、Work Authorization、敏感信息、缺失数字、单点问答及 MBA admissions 例外。
+
+- 核心 cases 与逐条 expectations：[`sg-resume-writing/evals/evals.json`](sg-resume-writing/evals/evals.json)
+- 测试说明：[`sg-resume-writing/evals/README.md`](sg-resume-writing/evals/README.md)
+- 最新回归结果：[`sg-resume-writing/evals/RESULTS.md`](sg-resume-writing/evals/RESULTS.md)
+- 下一阶段 edge-case backlog：[`sg-resume-writing/evals/backlog.md`](sg-resume-writing/evals/backlog.md)
+- 可直接复制的 prompt 与输出格式：[`sg-resume-writing/PROMPT_EXAMPLES.md`](sg-resume-writing/PROMPT_EXAMPLES.md)
+
+真实 CV 只用于第二阶段验证：必须先匿名化，并且不得把原文、可识别输出或敏感 diff 提交到公开仓库。
 
 ---
 
