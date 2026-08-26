@@ -1,0 +1,4 @@
+interface:
+  display_name: "新加坡面试教练"
+  short_description: "按 NUS、NTU 与 TAFEP 官方规范模拟新加坡技术和非技术面试"
+  default_prompt: "使用 $sg-interview-prep，陪我模拟一场新加坡岗位面试，并在结束后给出具体反馈。"
