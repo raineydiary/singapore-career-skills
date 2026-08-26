@@ -1,0 +1,165 @@
+{
+  "skill_name": "sg-interview-prep",
+  "source_checked_on": "2026-08-26",
+  "evals": [
+    {
+      "id": 1,
+      "name": "nus-software-engineer-technical-screen",
+      "profile": "NUS Computer Science final-year student applying for a Singapore software engineering graduate role",
+      "round": "Live coding technical screen",
+      "prompt": "我是 NUS Computer Science 大四学生，要面试新加坡 Software Engineer Graduate Programme。简历只写了 Python、Java 和一个课程 web app，没有写 distributed systems。请用 coaching mode 模拟 live coding 面试，一次一题。遇到算法题不要直接给我答案；先等我澄清、讲思路、复杂度和测试。也请检查我有没有把 JD 里的 distributed systems 说成自己的经验。",
+      "expectations": [
+        "Routes to a software-engineering technical interview rather than a generic behavioural interview",
+        "Asks one question at a time and does not reveal the solution before the candidate attempts it",
+        "Prompts the candidate to clarify requirements and state assumptions",
+        "Evaluates approach, correctness, time and space complexity, edge cases and tests",
+        "Includes debugging or follow-up probing appropriate to a live coding round",
+        "Does not turn the JD's distributed-systems requirement into candidate experience",
+        "Uses English for interview questions and candidate-ready examples with Chinese coaching",
+        "Scores technical reasoning and communication without inventing evidence"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ntu-data-analyst-sql-case",
+      "profile": "NTU Business Analytics student applying for a marketplace Data Analyst internship",
+      "round": "Hiring-manager analytics case",
+      "prompt": "我是 NTU Business Analytics 大三，申请电商 Data Analyst internship。我的真实经历只有 Python 清洗公开数据和 Tableau dashboard，没在工作里用过 SQL。请模拟一个订单转化率下降的 analytics case，先让我答，不要把 SQL 写成我的经历。反馈时请看我有没有定义 metric、确认数据粒度、处理 null/duplicate、验证结论并说明 business implication。",
+      "expectations": [
+        "Routes to a data and analytics case",
+        "Requires a precise metric definition and denominator before analysis",
+        "Checks data grain, joins, nulls, duplicates and other data-quality risks",
+        "Evaluates validation, segmentation and business implications rather than only syntax",
+        "Does not claim the candidate has workplace SQL experience",
+        "Separates case facts, candidate assumptions and hypotheses",
+        "Uses adaptive follow-up questions based on the candidate's reasoning"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "smu-consulting-candidate-led-case",
+      "profile": "SMU Economics student applying for a strategy consulting internship",
+      "round": "Candidate-led case interview",
+      "prompt": "我是 SMU Economics 大四，准备新加坡 consulting internship 的 candidate-led case。请给我一个东南亚咖啡连锁利润下降的 case，一次只推进一个阶段。不要替我编市场规模。看我是否会澄清目标、搭结构、提出 hypothesis、检查计算单位，并在最后做 recommendation、risks 和 next steps。",
+      "expectations": [
+        "Runs a candidate-led case rather than an interviewer-led sequence",
+        "Waits for clarification and structure before releasing further case information",
+        "Evaluates issue-tree quality and hypothesis-driven prioritisation",
+        "Checks calculations, units and interpretation of results",
+        "Does not invent market size or external facts not supplied in the case",
+        "Requires a concise synthesis with recommendation, evidence, risks and next steps",
+        "Separates coaching mode from realistic interview mode"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "nus-product-manager-product-sense",
+      "profile": "NUS Industrial Design student transitioning toward product management",
+      "round": "Product-sense and behavioural interview",
+      "prompt": "我是 NUS Industrial Design 学生，想申请 Associate Product Manager。我做过一次校园导航 redesign，但从没正式当过 PM。请模拟 product sense 面试，题目是如何改善新生第一周的校园导航体验。不要把我包装成有 PM 工作经验。反馈要看 user segment、pain point、business goal、success metric、prioritisation、trade-off 和 experiment。",
+      "expectations": [
+        "Routes to a product-sense interview with an appropriate product framework",
+        "Requires a target user segment and validated pain point",
+        "Connects user value to an explicit product or business goal",
+        "Requires measurable success metrics and guardrail metrics",
+        "Evaluates prioritisation, trade-offs and experiment design",
+        "Does not rename the candidate as a Product Manager or invent PM employment",
+        "Uses the real redesign project only when the candidate supplies evidence"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "smu-finance-risk-technical-ethics",
+      "profile": "SMU Applied Finance master's student applying for a bank Risk Analyst role",
+      "round": "Technical and ethics panel",
+      "prompt": "我是 SMU MSc Applied Finance，申请新加坡银行 Risk Analyst。真实经历是三年 credit analysis、Excel model 和监控 RMB 80M portfolio。请模拟 technical + ethics panel，覆盖 credit risk、scenario analysis、model limitation 和发现同事绕过 control 时怎么办。若需要最新银行或监管信息，请先核实，不要临场编新闻或法规。",
+      "expectations": [
+        "Routes to a finance and risk technical panel",
+        "Tests credit-risk reasoning, scenario analysis and model limitations",
+        "Includes an ethics or control-escalation scenario",
+        "Preserves the supplied RMB 80M fact without joining it to unsupported facts",
+        "Requires the candidate to disclose uncertainty rather than bluff",
+        "Verifies time-sensitive company, market or regulatory facts before using them",
+        "Assesses commercial impact and control judgement separately"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "ntu-operations-graduate-panel",
+      "profile": "NTU engineering graduate with National Service leadership applying for an operations programme",
+      "round": "HR screen followed by panel behavioural interview",
+      "prompt": "我是 NTU 应届生，NS 时是 3SG，带过 8 人小队并做每周训练计划，申请 Operations Graduate Programme。请先做 3 题 realistic mode HR screen，再做 panel behavioural。不要每题后立刻教学，整轮结束再反馈；重点看 leadership、conflict、resilience 和 operational judgement。",
+      "expectations": [
+        "Honours realistic mode by withholding coaching until the round ends",
+        "Separates HR-screen and panel objectives",
+        "Uses the verified 3SG and team-of-eight evidence without inventing branch or unit",
+        "Covers leadership, conflict, resilience and operational judgement",
+        "Maintains one-question-at-a-time interaction with adaptive probing",
+        "Produces a structured end-of-round report with scores and next actions"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "marketing-growth-campaign-case",
+      "profile": "SIM marketing student applying for a Growth Marketing internship",
+      "round": "Portfolio and campaign case",
+      "prompt": "我是 SIM Marketing 学生，申请 Growth Marketing internship。项目里做过 Instagram 内容和一份 campaign proposal，但没有真实投放预算或 conversion 数据。请模拟 portfolio + campaign case。不要替我编 reach、CTR、CAC 或 ROI；反馈时看 objective、audience、channel choice、funnel metric、attribution 和 learning。",
+      "expectations": [
+        "Routes to a marketing portfolio and campaign case",
+        "Requires objective, target audience and channel rationale",
+        "Evaluates funnel metrics and attribution limitations",
+        "Does not invent reach, CTR, CAC, ROI, budget or conversion data",
+        "Distinguishes a proposal from an executed campaign",
+        "Rewards reflection and learning without fabricating impact"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "ux-research-portfolio-interview",
+      "profile": "SUTD student applying for a UX Research internship",
+      "round": "Portfolio presentation and research-method interview",
+      "prompt": "我是 SUTD 学生，申请 UX Research internship。课程项目访谈了 6 名同学，做了 affinity mapping 和 prototype test，但没有上线产品。请模拟 portfolio walkthrough 和 research-method interview。不要把课程项目说成商业项目，也不要编上线结果；看我有没有讲清 problem、method choice、evidence、decision、limitation 和 next step。",
+      "expectations": [
+        "Routes to a UX research portfolio walkthrough",
+        "Requires problem, method choice, evidence, decision and reflection",
+        "Preserves six participants and does not invent sample size or product launch",
+        "Distinguishes a course project from commercial work",
+        "Tests research limitations, bias, privacy and next steps",
+        "Assesses storytelling and research judgement separately"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "nus-phd-biomedical-rd-deep-dive",
+      "profile": "NUS Biomedical Engineering PhD applying for a medical-device R&D role",
+      "round": "Technical deep dive with cross-functional panel",
+      "prompt": "我是 NUS Biomedical Engineering PhD，申请医疗器械 R&D。研究是 electrospun nanofibers，并与 NUH clinicians 做临床前研究；没有可公开病人数量或性能提升百分比。请模拟 technical deep dive 和面向非技术 panel 的解释。不要把我的研究升级成已完成 medical-device development，也不要编 patient count、standards 或 validation result。",
+      "expectations": [
+        "Routes to an R&D technical deep dive and cross-functional explanation",
+        "Preserves biomedical source accuracy and contribution level",
+        "Does not relabel the research as completed medical-device development",
+        "Does not invent patient counts, standards, validation results or performance metrics",
+        "Tests experimental design, limitations, safety and translation considerations",
+        "Requires both expert-level and non-technical explanations",
+        "Evaluates uncertainty handling and evidence boundaries"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "nonlocal-hr-salary-work-auth-fairness",
+      "profile": "Chinese postgraduate applying for a Singapore business analyst role and requiring Employment Pass sponsorship",
+      "round": "HR screen",
+      "prompt": "我是中国籍硕士，申请新加坡 Business Analyst，需要 Employment Pass sponsorship。请模拟 HR screen，练习 work authorisation、expected salary，以及面试官问‘你打算结婚生孩子吗’时怎么回应。不要替我判断 EP eligibility，也不要编市场薪资。请区分当前 TGFEP 和尚未生效的 WFA，不要把每个敏感问题都简单说成违法。",
+      "expectations": [
+        "Uses only the verified Requires Employment Pass sponsorship wording",
+        "Does not claim Employment Pass eligibility or likely approval",
+        "Does not invent a market salary range and asks for current verified benchmarks",
+        "Helps the candidate answer the job-related concern without disclosing unnecessary personal information",
+        "Explains that non-job-related discriminatory questions should be avoided rather than declaring every sensitive question automatically illegal",
+        "Distinguishes current TGFEP guidance from the Workplace Fairness Act expected to take effect by end-2027",
+        "Offers a tactful relevance-clarification response and escalation option",
+        "Frames the guidance as practical information rather than personal legal advice"
+      ]
+    }
+  ]
+}
