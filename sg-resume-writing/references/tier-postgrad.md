@@ -15,8 +15,8 @@ NUS MSc 变体允许把 ADDITIONAL 命名为 SKILLS AND ACTIVITIES 或自定标�
 
 - 字体 Calibri：正文 10pt、section 标题 10.5pt、姓名 14pt 加粗（NUS MSc 允许正文最高 11pt、最低 10pt）
 - 页边距 ≥12mm（½"）
-- **严格 1 页**
-- 姓名+联系方式居中；联系方式在姓名下一行；邮箱不做超链接；必须含 LinkedIn URL
+- **SMU 标准化 postgraduate résumé / resume-book 场景严格 1 页**；一般有经验者的求职简历以 1 页为优先，只有当相关经历无法清晰压缩时才可到 2 页，且不得超过 2 页
+- 姓名+联系方式居中；联系方式在姓名下一行；邮箱不做超链接；LinkedIn 仅在用户已有且内容完善时加入
 - **全大写**：SECTION 名、大学名、雇主名、缩写词；其余正常大小写
 - **加粗**：姓名、雇主名、职位名、学校名、学位名、公民身份
 - 日期右对齐；全文左对齐、禁止两端对齐
@@ -45,7 +45,7 @@ Position Title, Junior (Jul 2017 – Jul 2019)
 ```
 
 - 不知名公司可加一行斜体简介（keep to 1 line）
-- **弱化技术术语，突出商业影响**：leadership、team building、project management、problem-solving。写"这个项目为业务带来什么"，不写实现细节
+- **按 job family 控制技术深度**：管理/金融/general business 岗位弱化实现细节，突出商业影响、leadership、team building、project management、problem-solving；R&D、engineering、data、software 岗位保留 JD 相关的方法、设备、标准、验证和 publication/IP，同时把专业价值解释清楚
 - 量化必须具体：管理人数、负责金额、销售增长%、成本节省%；金额 $1K/$1M/$1B
 - 晋升与奖项写进对应职位 bullet 并给相对语境（"accelerated promotions"、"one of only three employees worldwide selected for this annual award"）
 - 创业经历、实习、兼职按与目标岗位的相关性取舍
@@ -59,11 +59,12 @@ Position Title, Junior (Jul 2017 – Jul 2019)
 • Technical Skills: Python; R; SPSS; RPA
 • Language fluency: English (fluent); Mandarin (native); Conversational: French
 • Volunteer service or unique personal achievements (YYYY)
-• Work Authorization: Singapore, China
+• Work Authorization: Singapore Permanent Resident
+  或：Requires Employment Pass sponsorship for employment in Singapore
 ```
 
 - 证书类目常见：CPA、CFA、CACS、FRM、专业协会会员——新加坡金融业高度看重
-- **Work Authorization 列出所有可工作地**——外籍求职者必写
+- **Work Authorization 只写已核实的身份或 sponsorship need**。不要把国籍、希望工作的地点或未经核实的 `Eligible for Employment Pass` 当成准证事实，也不要预测准证能否获批
 - 兴趣爱好一行，且门槛高于本科档：只写真正 standout 的（出版过书、主导过有影响力的筹款）；"reading science fiction or working out doesn't make the cut"（NBS 标准）
 - 发表物/博客/portfolio/创业项目也放这里
 - 不写出生日期、种族、身高体重、婚姻状况、子女、宗教
@@ -72,10 +73,16 @@ Position Title, Junior (Jul 2017 – Jul 2019)
 
 申请 MBA/硕士项目时给 admissions committee 的简历规则不同，不能拿求职简历"改改就交"：
 
-- 长度放宽：Nanyang MBA 明确接受最多 3 页；但依然要求 headline 式精炼写法，字号 10–12，别为塞内容缩小字号——"长而杂乱的简历说明你不会沟通"
+- 长度以**当前项目申请 portal** 为准。Nanyang MBA 当前公开 admissions page 要求 concise CV/resume，突出 career progression、responsibilities 和 professional accomplishments，但没有公开列明页数；2016 年 NBS 官方博客曾写“不超过 3 页”。因此可以把 3 页视为历史上限参考，不能称为当前硬规则，提交前必须复核 portal
+- 无论页数上限如何，都使用 headline 式精炼写法，字号 10–12，不为塞内容缩小字号；长而杂乱会削弱沟通力
 - 评估重点是 **leadership 潜力与协作能力**（teamwork, collaboration, innovation），不是岗位技能匹配——技术细节写段落是错误，一笔带过即可
 - Education 段落简明可扫读：院校、年份、领域、Dean's List/排名类成就
 - 全文要能读出清晰的 career path，且每条内容支撑申请者的职业发展叙事
+
+Source check (25 Aug 2026):
+
+- Current Nanyang MBA admissions page: https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/admissions
+- Historical NBS resume guidance (19 May 2016): https://blogs.ntu.edu.sg/nbsgradstudies/2016/05/19/crafting-a-perfect-resume/
 
 ---
 

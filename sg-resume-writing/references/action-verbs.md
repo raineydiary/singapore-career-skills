@@ -3,9 +3,9 @@
 ## 用法
 
 1. 先确定这条 bullet 要体现的**能力维度**（对齐 JD 关键词），再从对应类别选词——不是随便找个"高级词"。
-2. 全文动词不重复；同一段经历内尤其不能连续两条同词开头。
+2. 动词尽量多样，但 source fidelity 和 ownership 优先；最准确的动词可以重复，不要为了变化把 `Supported` 升级成 `Led`。
 3. 拼写：本表为美式拼写（analyzed, organized）。**若简历采用英式体系（新加坡默认），需转换**：analyzed→analysed, organized→organised, utilized→utilised, prioritized→prioritised, standardized→standardised, systematized→systematised, emphasized→emphasised, synthesized→synthesised, publicized→publicised, remodeled→remodelled, modeled→modelled, counseled→counselled。
-4. 弱动词黑名单（任何情况下替换掉）：Responsible for… / Assisted with… / Helped with… / Involved in… / Participated in…（除非确实只是参与且无更强表述）。
+4. 弱动词黑名单（作为 bullet 开头时一律替换）：Responsible for… / Assisted with… / Helped with… / Involved in… / Participated in…。下方保留了官方原始分类词表，因此即使某个词仍出现在类别中，**本条黑名单优先**；只有在句中准确描述有限贡献、且改成强动词会夸大职责时才可使用。
 
 ## 新加坡官方点名推荐动词
 
