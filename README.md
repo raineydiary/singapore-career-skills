@@ -59,12 +59,12 @@ Built by a hiring manager in Singapore tech, for Chinese-speaking job seekers na
 
 | 能力 | 具体做的事 |
 |---|---|
-| **模拟面试** | Claude 扮演面试官，一题一答，结束后出一份反馈报告 |
-| **面试冲刺包** | 按 JD 预测高频题 + S.T.O.R.Y. 五故事备题 + 反问清单 |
-| **三维评估模型** | 每道题先定位面试官在测什么：Can you do the job / Do you love the job / Can you fit in |
-| **题型→框架映射** | STAR、C-STAR、3-Point、Past-Present-Future 按题型选用，不是万物皆 STAR |
-| **本地礼仪与合规** | Singlish 禁令、24 小时 thank-you email、panel / 视频 / 电话 / case 面试战术 |
-| **违规提问应对** | 面试官问了年龄、婚育、种族怎么办——附 TAFEP 依据与英文话术 |
+| **双模式模拟** | Coaching mode 逐题反馈；Realistic mode 整轮结束再复盘，全程一次只问一题 |
+| **九类岗位路由** | SWE、Data、Product、Consulting、Finance / Risk、Operations、Marketing、UX、Biomedical / R&D |
+| **技术与 Case 机制** | 不提前泄题；检查澄清、假设、方法、验证、复杂度、trade-off 与 synthesis |
+| **事实安全** | 不把 JD 技能写成候选人经历，不拼接数字、工具、ownership 或项目状态 |
+| **六维反馈报告** | Relevance、evidence、structure、specificity、delivery、role-specific reasoning |
+| **新加坡本地边界** | Work Authorisation、薪资、敏感问题；区分当前 TGFEP 与预计 2027 年底生效的 WFA |
 
 ---
 
@@ -76,6 +76,8 @@ Built by a hiring manager in Singapore tech, for Chinese-speaking job seekers na
 4. 确认开关打开，新开一个对话即可使用
 
 > 若文件选择器不接受 `.skill` 后缀，把文件重命名为 `.zip` 再上传，内容完全一致。
+
+小红书中文版可直接下载：[`sg-interview-prep-lite.skill`](dist/sg-interview-prep-lite.skill)；备用 [`sg-interview-prep-lite.zip`](dist/sg-interview-prep-lite.zip)。
 
 **开始使用：**
 
@@ -93,7 +95,11 @@ Built by a hiring manager in Singapore tech, for Chinese-speaking job seekers na
 
 ## 测试 / Evaluation
 
-`sg-resume-writing` 附带一组可重复运行的隐私安全测试：10 个虚构学生与 early-career profiles，覆盖本科、硕士、PhD、转职、NS、Work Authorization、敏感信息、缺失数字、单点问答及 MBA admissions 例外。
+两个 Skills 都附带可重复运行、隐私安全的 synthetic tests，不使用真实学生简历或个人资料。
+
+### 简历 Skill
+
+10 个虚构学生与 early-career profiles，覆盖本科、硕士、PhD、转职、NS、Work Authorization、敏感信息、缺失数字、单点问答及 MBA admissions 例外。
 
 - 核心 cases 与逐条 expectations：[`sg-resume-writing/evals/evals.json`](sg-resume-writing/evals/evals.json)
 - 测试说明：[`sg-resume-writing/evals/README.md`](sg-resume-writing/evals/README.md)
@@ -101,7 +107,17 @@ Built by a hiring manager in Singapore tech, for Chinese-speaking job seekers na
 - 下一阶段 edge-case backlog：[`sg-resume-writing/evals/backlog.md`](sg-resume-writing/evals/backlog.md)
 - 可直接复制的 prompt 与输出格式：[`sg-resume-writing/PROMPT_EXAMPLES.md`](sg-resume-writing/PROMPT_EXAMPLES.md)
 
-真实 CV 只用于第二阶段验证：必须先匿名化，并且不得把原文、可识别输出或敏感 diff 提交到公开仓库。
+### 面试 Skill
+
+10 名虚拟学生，覆盖 9 类热门技术与非技术岗位、主要面试轮次与 69 项预设行为检查。
+
+- 核心 cases 与逐条 expectations：[`sg-interview-prep/evals/evals.json`](sg-interview-prep/evals/evals.json)
+- 10 名虚拟学生模拟记录：[`sg-interview-prep/evals/SIMULATIONS.md`](sg-interview-prep/evals/SIMULATIONS.md)
+- 最新结果与限制：[`sg-interview-prep/evals/RESULTS.md`](sg-interview-prep/evals/RESULTS.md)
+- 可直接复制的 prompts：[`sg-interview-prep/PROMPT_EXAMPLES.md`](sg-interview-prep/PROMPT_EXAMPLES.md)
+- 小红书 8 页图文脚本：[`sg-interview-prep-lite/XHS_COPY.md`](sg-interview-prep-lite/XHS_COPY.md)
+
+真实 CV 或面试内容只用于第二阶段验证：必须先匿名化，并且不得把原文、可识别输出或敏感 diff 提交到公开仓库。
 
 ---
 
@@ -111,7 +127,7 @@ Built by a hiring manager in Singapore tech, for Chinese-speaking job seekers na
 
 **NUS Centre for Future-ready Graduates**
 - [Create an Impressive Resume](https://nus.edu.sg/cfg/students/career-resources/create-an-impressive-resume)
-- [Ace Your Job Interview](https://nus.edu.sg/cfg/students/career-resources/interview/ace-your-job-interviews)
+- [Ace Your Job Interview](https://nus.edu.sg/cfg/students/career-resources/ace-your-job-interview)
 - [Interview Framework (PDF)](https://nus.edu.sg/cfg/docs/default-source/students/career-resources/ace-your-job-interview/interview-framework.pdf)
 - [Pre-Interview Preparation (PDF)](https://nus.edu.sg/cfg/docs/default-source/students/career-resources/ace-your-job-interview/pre-interview-preparation.pdf)
 - [Interview Beyond Basics (PDF, FASS)](https://fass.nus.edu.sg/wp-content/uploads/2025/06/Interview-Beyond-Basics-Abridged.pdf)
@@ -133,7 +149,8 @@ Built by a hiring manager in Singapore tech, for Chinese-speaking job seekers na
 
 **TAFEP（新加坡公平与进步雇佣联盟）**
 - [Tripartite Guidelines on Fair Employment Practices](https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines)
-- [How to Conduct Fair Job Interviews](https://www.tal.sg/tafep/employment-practices/recruitment/conducting-job-interviews)
+- [Recruitment: Fair and Merit-Based Hiring](https://www.tal.sg/tafep/employment-practices/recruitment)
+- [Workplace Fairness Act: Employer Guide](https://www.tal.sg/tafep/workplace-fairness/employer)
 - [Fair Job and Employment Application Forms](https://www.tal.sg/tafep/employment-practices/recruitment/preparing-job-application-forms)
 - Examples of Non-Discriminatory Interview Questions（TAFEP 官方题库）
 
