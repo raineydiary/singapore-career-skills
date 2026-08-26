@@ -1,0 +1,4 @@
+interface:
+  display_name: "新加坡留子专属面试 Skill"
+  short_description: "不靠“我觉得”，按 NUS、NTU 与 TAFEP 官方规范陪练新加坡面试"
+  default_prompt: "使用 $sg-interview-prep-lite，根据我的 JD、简历与面试轮次，陪我做一次新加坡岗位模拟面试。"
