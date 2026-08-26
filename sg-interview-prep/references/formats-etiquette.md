@@ -1,4 +1,4 @@
-# 面试形式战术 + 前中后流程（NBS + NUS + NTU 2026 + TAFEP）
+# 面试形式战术与前中后流程（NBS + NUS + NTU 2026 + TAFEP）
 
 ## 面试前准备清单（NUS 七项）
 
@@ -6,7 +6,7 @@
 2. **文件准备**：简历、cover letter、成绩单、证书、references；有作品集备好；虚拟面备电子版可随时分享，线下面用专业文件夹装打印件
 3. **着装**：corporate 岗位默认正装，startup 可商务休闲；**拿不准就偏正式**
 4. **练习**：过一遍常见题并出声练（不是在脑内过）
-5. **准备反问**：3–5 个问题——公司文化、岗位预期、职业发展路径、日常工作内容
+5. **准备反问**：准备 3–5 个问题，例如公司文化、岗位预期、职业发展路径和日常工作内容
 6. **路线与时间**：线下面查好路线和当天交通，**提前 10–15 分钟到**
 7. **调研**：公司使命、产品/服务、竞争对手、近期新闻；调研深度会直接体现在答案和反问质量上
 
@@ -21,14 +21,14 @@
 ### 视频面试（live 或预录）
 - 提前开摄像头录自己练习，适应上镜
 - 着装整洁 + 背景布置成专业工作环境
-- Wi-Fi 信号提前测（NBS 土办法：流畅播一段在线视频）
+- Wi-Fi 信号提前测，例如流畅播放一段在线视频
 - **刻意提高能量水平**，补偿隔屏损失的临场感染力
-- 笔记本插电源——时长可能超预期
+- 笔记本插电源，面试时长可能超预期
 
 ### Panel 面试（3–8 人：HR + 业务经理 + 部门专家）
 - 眼神接触：线下对提问者答题时环视全场；视频面**对摄像头说话**，不是盯屏幕上的人
 - 开场记下名牌，按座位顺序摆在面前，答题时称呼名字
-- 有人面露无聊很正常——不同背景的面试官关注点不同，保持镇定
+- 有人面露无聊很正常，不同背景的面试官关注点不同，保持镇定
 - **同一问题被问第二遍：坚持同一版本的故事**，不要自我怀疑改口
 
 ### 电话面试（早期筛选）
@@ -52,25 +52,38 @@
 - 积极倾听、微笑、语气正向
 - 结束时感谢面试官并表达对下一步的兴趣
 
-## 面试后 48 小时动作（NTU 2026）
+## 面试后动作
 
-1. **24 小时内发 thank-you email**：感谢 + 重申兴趣 + （可选）补答没答好的题、补充当时没有的数据——这是官方认可的"二次作答"通道
+1. **及时发送 thank-you email**：如果公司文化和沟通渠道适合，通常可在面试后约 24 小时内发送；内容包括感谢、重申兴趣，以及可选的简短澄清或补充。不要把 24 小时写成所有公司的硬性规定
 2. 可在 LinkedIn 连接面试官/招聘官，附简短专业留言
 3. 复盘：记录被问到的题，更新 S.T.O.R.Y. 故事库
 
-## 违规问题应对（TAFEP 细则）
+## 敏感与非岗位相关问题（TAFEP）
 
-**面试官不应问**：年龄、种族、宗教、性别倾向性问题、婚姻状况、生育计划、家庭责任、残障（"How old are you?" "Are you married?" "Are you planning to have children soon?" 为官方点名例句）。
+当前 TGFEP 要求雇主使用与岗位相关、客观并一致的 selection criteria。年龄、国籍、性别、婚姻、怀孕、生育计划、照护责任、种族、宗教、语言能力、残障和心理健康等敏感信息，不应在缺乏岗位相关性的情况下用于筛选。
 
-**合法的边界情况**：出差/工时/体力/语言要求属于岗位条件确认，合法；雇主确需问敏感信息时有义务解释与岗位的关联；NRIC 号原则上到 offer 阶段才提供。
+**边界情况**：出差、工时、体力和语言能力可以是岗位条件，但问题必须针对实际工作要求。雇主确需询问可能被视为敏感的信息时，应解释与岗位的关联。不要在没有完整事实时直接下法律结论。
 
-**遇到违规提问的三步应对**：
+**遇到非岗位相关提问的三步应对**：
 
-1. 礼貌确认相关性："That's an interesting question — may I ask how it relates to the role? I'd be happy to address any job-related concerns."
-2. 回答与工作相关的部分：被问婚育 → "If the concern is about my commitment or availability, I can confirm I'm fully able to meet the travel and schedule requirements of this role."
+1. 礼貌确认相关性："That's an interesting question. May I ask how it relates to the role? I'd be happy to address any job-related concerns."
+2. 回答与工作相关的部分：被问婚育时可说，"If the concern is about my commitment or availability, I can confirm I'm fully able to meet the travel and schedule requirements of this role."
 3. 情节严重（明显以此为筛选标准）：可以不回答；记录时间、问题与在场人员，事后可向 TAFEP 反映（tafep.sg）。求职者有官方申诉渠道，知道这一点本身就是谈判桌上的底气。
 
 分寸提醒：绝大多数越界提问出于面试官未受训而非恶意，第 1–2 步足以体面化解，不必升级对抗。
+
+### TGFEP 与 WFA
+
+- TGFEP 是当前公平雇佣指导。
+- Workplace Fairness Act 截至 2026 年仍处于实施准备阶段，TAFEP 官方资料表示预计在 2027 年底生效。
+- 回答用户时区分当前指导与未来法律，不提供个人法律意见。
+
+## Work authorisation 与 expected salary
+
+- 只使用用户已核实的 work-authorisation 事实。需要 sponsorship 时可以说：`I require Employment Pass sponsorship for employment in Singapore.`
+- 不自行声称 `Eligible for Employment Pass`，也不预测准证获批。
+- 薪资题先确认岗位级别、fixed salary 与 total compensation 的口径、用户现状和当前可靠 benchmark。
+- 没有最新来源时不编市场区间。可以先练习结构：表达兴趣 → 说明依据 → 给经核实区间或询问 budgeted range → 保持对整体 package 开放。
 
 ---
 
