@@ -1,0 +1,160 @@
+{
+  "skill_name": "sg-resume-writing",
+  "source_checked_on": "2026-08-25",
+  "evals": [
+    {
+      "id": 1,
+      "name": "nus-data-analyst-sensitive-info",
+      "prompt": "我是 NUS Business Analytics 大四学生，申请新加坡 Data Analyst。请诊断并改写下面的简历片段，并结合 JD 给我最终可用的英文内容。简历写了：Photo、Date of Birth: 12 May 2002、Nationality: Chinese；Education: NUS BSc Business Analytics, GPA 4.62/5.00；Intern, RetailCo (May–Aug 2025): Responsible for weekly sales reports; Helped marketing team analyse customer data; Used Excel and Tableau。JD 强调 SQL、Tableau、dashboard automation、stakeholder communication。素材中没有其他数字。",
+      "expected_output": "Select the undergraduate route; remove sensitive personal fields; retain competitive GPA with scale; align only evidenced JD keywords; rewrite in English without inventing SQL or metrics; ask for missing scale or use placeholders; provide diagnosis and before/after examples.",
+      "files": [],
+      "expectations": [
+        "Selects the undergraduate or entry-level route",
+        "Flags photo, date of birth and nationality field for removal",
+        "Keeps GPA 4.62/5.00 with its scale",
+        "Uses Tableau and stakeholder/data-analysis language but does not claim SQL or dashboard automation experience",
+        "Does not assume that Excel and Tableau were both used for every listed task or that unspecified stakeholders reviewed the reports",
+        "Keeps the supplied title as Intern and does not invent a more specific analytics title",
+        "Does not invent business purposes such as performance review or campaign planning when the user did not supply them",
+        "Does not invent percentages, revenue, team size or other metrics",
+        "Produces English resume bullets and Chinese explanation"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ntu-engineering-chinese-no-jd",
+      "prompt": "我是 NTU Mechanical Engineering 大三，想找新加坡暑期实习，没有 JD。中文经历：在课程项目里和 4 个同学设计自动分拣装置，我负责 CAD 建模和测试，做了 3 轮测试，最后原型可以稳定运行；社团宣传部成员，负责做海报和发 Instagram。请帮我把这些经历改成英文简历 bullet。",
+      "expected_output": "Use the undergraduate route; translate into concise English bullets; preserve the supplied team and test counts; avoid invented reach or performance; explain that a JD would improve tailoring; ask for missing outcome details where useful.",
+      "files": [],
+      "expectations": [
+        "Uses undergraduate sections and conventions",
+        "Outputs resume bullets in English while explaining in Chinese",
+        "Preserves team size of five and three test rounds without changing them",
+        "Does not invent Instagram reach, engagement or prototype performance numbers",
+        "Mentions that a target JD would enable more precise tailoring",
+        "Uses strong varied action verbs rather than Responsible for or Helped with"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "smu-msc-finance-experienced",
+      "prompt": "I am an SMU MSc in Applied Finance student with three years of full-time experience in China and I am applying for a Risk Analyst role in Singapore. My resume includes: ABC BANK, Credit Analyst, Jul 2021–Jul 2024; reviewed SME credit applications; built Excel models; monitored a RMB 80M portfolio; reduced average review time from 5 days to 3 days. Certifications: CFA Level I. Languages: Mandarin native, English fluent. I require Employment Pass sponsorship. Please restructure and rewrite the resume content.",
+      "expected_output": "Use the postgraduate/experienced four-section structure; convert RMB figures faithfully; surface commercial impact; include certifications, language and accurate work-authorisation wording; do not imply current EP eligibility or approval.",
+      "files": [],
+      "expectations": [
+        "Selects the postgraduate or experienced route",
+        "Uses the four-part Education, Experience and Additional structure with contact header",
+        "Preserves RMB 80M and the five-to-three-day improvement accurately",
+        "Does not assert that the entire RMB 80M portfolio consisted of SMEs unless the user confirms that relationship",
+        "Includes CFA Level I and standardised language proficiency",
+        "States that Employment Pass sponsorship is required without claiming eligibility or approval",
+        "Uses concise business-impact bullets and no fabricated achievements"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "nus-phd-industry-transition",
+      "prompt": "我是 NUS Biomedical Engineering PhD，想投新加坡医疗器械公司的 R&D Engineer。经历：研究 electrospun nanofibers；与 NUH clinicians 合作做临床前研究；写过论文并在 conference 做 presentation。没有可以公开的病人数量、提升百分比或 grant 金额。请帮我把研究经历改得更适合 industry，不要替我编数字。",
+      "expected_output": "Use the postgraduate route; de-jargon research content; translate research activities into collaboration, validation and product-development relevance; use qualitative rationale when metrics are unavailable; never invent confidential figures.",
+      "files": [],
+      "expectations": [
+        "Selects the postgraduate route",
+        "Outputs English bullets with Chinese explanation",
+        "De-jargons technical detail while preserving biomedical accuracy",
+        "Does not turn the target medical-device role into a claim that the past research was already medical-device development",
+        "Highlights clinician collaboration, validation and communication",
+        "Uses qualitative results or rationale instead of fabricated metrics",
+        "Does not invent patient counts, percentages, grant amounts or publication impact"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "boundary-master-no-fulltime",
+      "prompt": "我是 NUS MSc Business Analytics 在读，没有全职经验，只有本科社团、一个 Kaggle 项目和 2 个月实习。目标是新加坡 Product Analyst。应该用本科模板还是研究生模板？请先告诉我结构选择，并示范一条项目 bullet。Kaggle 素材：用 Python 清洗公开电商数据，比较 3 个分类模型，最终 F1 score 0.81。",
+      "expected_output": "Apply the boundary rule: postgraduate three/four-part structure with undergraduate-style project and activity content; explain the rationale; write one truthful English bullet preserving model count and F1 score.",
+      "files": [],
+      "expectations": [
+        "Explicitly identifies this as a boundary case",
+        "Chooses postgraduate structure with undergraduate-style content emphasis",
+        "Retains project and CCA content rather than deleting it",
+        "Produces an English bullet preserving three models and F1 score of 0.81",
+        "Does not invent ranking, dataset size or business impact",
+        "Does not present common Product Analyst skills such as SQL as verified unless the user supplied them"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "local-student-national-service",
+      "prompt": "我是新加坡公民、NTU 应届生，NS 时是 3SG，带过 8 人小队并负责每周训练计划；现在申请 Operations Graduate Programme。NS 应该放哪里？请给我一段可以直接放进简历的英文写法。",
+      "expected_output": "Treat NS as relevant experience because it includes leadership and operations evidence; use the undergraduate route; write truthful English bullets using the supplied rank and team size; avoid inventing unit, awards or readiness improvements.",
+      "files": [],
+      "expectations": [
+        "Recommends placing NS as an experience rather than a one-line additional item",
+        "Explains that leadership and operations relevance justify the placement",
+        "Uses 3SG and team of eight exactly as supplied",
+        "Outputs English resume content",
+        "Does not invent service branch, unit name, awards, training frequency beyond weekly or performance improvements"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "foreign-career-switcher-low-gpa",
+      "prompt": "I am an Indonesian applicant switching from customer service to UX research in Singapore. I graduated four years ago with GPA 2.8/4.0. My resume says 'Eligible for Employment Pass' but I have never checked this. I conducted about 15 customer interviews in my current job and summarised recurring complaints for the product team. Please review what should stay or go.",
+      "expected_output": "Use the experienced route; recommend omitting the low GPA; correct the unsupported EP eligibility claim; preserve the 15 interviews; translate customer-research evidence into transferable UX research language without overstating job title or outcomes.",
+      "files": [],
+      "expectations": [
+        "Selects the experienced or career-switcher route",
+        "Recommends omitting GPA 2.8/4.0",
+        "Removes or qualifies the unsupported Eligible for Employment Pass claim",
+        "Preserves approximately 15 interviews without turning it into an exact unsupported number",
+        "Does not rename the applicant as a UX Researcher or invent product outcomes",
+        "Provides an evidence-based English bullet"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "empty-handed-from-scratch",
+      "prompt": "我是 SUSS 大二学生，想申请新加坡 HR internship，但我还没有简历。你直接帮我写一份完整英文简历吧。",
+      "expected_output": "Do not fabricate a complete resume; select the undergraduate route; ask structured questions about education, experiences, skills, target roles and measurable outcomes; give one clearly labelled skeleton or small sample without inventing facts.",
+      "files": [],
+      "expectations": [
+        "Selects the undergraduate route",
+        "Does not invent a complete resume, employer, activities, GPA or achievements",
+        "Asks structured questions about education, experiences, skills, target and results",
+        "Explains what evidence or numbers would be useful",
+        "May provide a clearly labelled template but not fabricated final content",
+        "Does not request protected or unnecessary personal information such as photo, date of birth, race, religion, marital status or NRIC/FIN"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "photo-convention-qa",
+      "prompt": "新加坡简历到底要不要放照片？我是中国学生，朋友说亚洲公司都喜欢有照片的。",
+      "expected_output": "Answer the convention question directly and concisely; advise against a photo for Singapore professional applications; explain the job-relevance and fair-employment rationale; do not start the full resume intake workflow.",
+      "files": [],
+      "expectations": [
+        "Answers directly that a photo should generally not be included",
+        "Explains the Singapore fair-employment or job-relevance rationale",
+        "Does not launch a resume-writing intake questionnaire",
+        "Does not claim that every employer or every Asian market follows the same convention",
+        "Does not suggest replacing the photo with nationality, date of birth, race or NRIC/FIN details"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "nanyang-mba-admissions-exception",
+      "prompt": "I am applying to the Nanyang MBA, not a job. I have eight years of experience and a two-and-a-half-page resume. Should I force it into one page? My draft has detailed technical project descriptions but very little leadership context.",
+      "expected_output": "Recognise the admissions-resume exception; do not force the one-page job-search rule; distinguish the current Nanyang MBA admissions page from the historical NBS three-page guidance; advise checking the current portal; prioritise concise leadership, collaboration and career progression over technical detail.",
+      "files": [],
+      "expectations": [
+        "Recognises that this is an admissions resume rather than a job-search resume",
+        "Does not apply the standard one-page postgraduate job-resume rule",
+        "Explains that the current public Nanyang MBA admissions page asks for a concise career-progression CV but does not publicly state a page cap",
+        "Attributes the up-to-three-page guidance to an older NBS source and tells the user to verify the current application portal",
+        "Recommends reducing technical detail and adding leadership, collaboration and career-path evidence",
+        "Makes clear that even under the historical three-page ceiling, the content must remain concise, relevant and easy to scan",
+        "Avoids promising admission outcomes"
+      ]
+    }
+  ]
+}
