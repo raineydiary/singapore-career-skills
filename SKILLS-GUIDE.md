@@ -1,0 +1,192 @@
+[← 返回 SG Career 资源库](https://github.com/raineydiary/singapore-career-skills#readme)
+
+# Singapore Career Skills · 新加坡求职 AI Skills
+
+> 基于 NUS、NTU、SMU 三所高校就业指导中心的官方规范，以及 TAFEP 公平雇佣准则提炼而成的 AI Skills。
+>
+> AI Skills for job hunting in Singapore, distilled from the official career-office standards of NUS, NTU, SMU, and Singapore's TAFEP fair employment guidelines.
+
+Developed by **Rain 雨雨小天才**
+
+---
+
+## 为什么做这个 / Why this exists
+
+我是一名新加坡大厂面试官，过去这些年经手过 1000+ 份简历，面过 200+ 位候选人，也帮身边不少朋友从改简历、模拟面试到拿下 offer。一路走来我发现在外国人在新加坡求职的痛点和短板非常明显而集中：
+
+**1️⃣ 大家对高校求职官方资源的利用远远不足**
+
+网上的新加坡求职攻略很多，但大多是"我觉得"。可事实上，NUS、NTU、SMU 三所高校的就业指导中心，早就白纸黑字写好了给自己学生的简历与面试标准——什么该放、什么绝对不能放、面试官到底在测什么。只是这些规范散落在几十份英文 PDF 和校内材料里，绝大多数人根本不知道它们存在。这两个 Skills 里的每一条规则都能指回一份这样的官方文件；我今天就把这些分散、英文、藏在海量文件里面的宝贵规则，直接逐条提炼成 AI 可以直接执行的规则集。
+
+**2️⃣ 大家开始用 AI 求职，但 AI 也许不懂新加坡**
+
+用 AI 改简历、做模拟面试，方向是对的。但通用 AI 不了解本地规范：它会给你一份美式简历，让你写 objective、堆形容词，却不会提醒你这里的简历不放照片、不写种族和出生日期，也不知道面试官问起婚育计划时你可以怎么合规应对，更不会把你的简历向目标 JD 的 ATS 关键词对齐。它给的是"全球平均答案"，不是"新加坡最佳答案"。
+
+**3️⃣ 信息差在 non-local 身上被成倍放大**
+
+本地学生多少能从学长学姐、就业中心口耳相传捡到一些潜规则；但对华语求职者、尤其是刚来新加坡的人，没有人会主动告诉你——GPA 要不要写、Work Authorization 怎么标、thank-you email 该多久内发出、哪些 terms 是面试大忌。这些差一步就出局的细节，偏偏最没人讲给你听。
+
+## 你会得到什么 / What you get
+
+一位**读完了 20 份高校与政府官方文件**的新加坡求职教练，随叫随到。
+
+💡我把 NUS、NTU、SMU 三校就业中心的简历与面试规范，加上新加坡政府 TAFEP 的公平雇佣准则。共**20份官方材料**、**上万字规范**逐条提炼成 AI 能一次调用的规则集。装上之后，你可以直接让它改你的简历、陪你模拟面试、告诉你哪句话会让你出局。每一条建议，都指得回一份官方出处。
+
+Most Singapore job-hunting advice online is anecdotal. Every rule in these skills traces back to an official source: the resume and interview standards that Singapore's universities publish for their own students, plus the national fair employment guidelines. The work here is distillation — turning scattered PDFs and annotated templates into rule sets an AI can execute.
+
+Built by a hiring manager in Singapore tech, for Chinese-speaking job seekers navigating a market whose unwritten rules nobody explains to them.
+
+---
+
+## 两个 Skills / The Skills
+
+### 📄 `sg-resume-writing`
+
+**写、改、评新加坡求职简历——帮你打造一份符合新加坡规范，ATS 友好、 HR 欣赏的英文docx格式简历。**
+
+| 能力 | 具体做的事 |
+|---|---|
+| **两档规则自动切换** | 按身份走不同标准：应届本科档 / 硕士与有经验档，不用你手动选 |
+| **中文简历也收** | 直接转写成规范英文版，输出诊断报告 + 改好的 `.docx` |
+| **ATS 关键词对齐** | 给它目标岗位 JD，简历向 JD 的 KSA 与行业关键词靠拢 |
+| **本地合规检查** | 照片、种族、出生日期、Work Authorization、GPA 门槛等新加坡特有红线 |
+| **300+ 动词库** | 按 9 大能力维度分类，配弱动词黑名单，杜绝"负责了""参与了" |
+| **数据诚实红线** | 绝不替你编数字，缺数据会追问，或用占位符标出让你补 |
+| **Source fidelity** | JD 只用于定制，不会把目标岗位技能、相邻工具或未确认关系拼成你的既有经历 |
+| **输出模式可锁定** | 默认 ATS-safe 单栏 `.docx`；也可指定 NUS-aligned、NTU、SMU、LaTeX，或上传模板后要求 `stick to supplied template` |
+
+### 🎤 `sg-interview-prep`
+
+**准备新加坡的求职面试——帮你从 JD 预测题目，提供真人般的模拟面试和逐题反馈。**
+
+| 能力 | 具体做的事 |
+|---|---|
+| **双模式模拟** | Coaching mode 逐题反馈；Realistic mode 整轮结束再复盘，全程一次只问一题 |
+| **九类岗位路由** | SWE、Data、Product、Consulting、Finance / Risk、Operations、Marketing、UX、Biomedical / R&D |
+| **技术与 Case 机制** | 不提前泄题；检查澄清、假设、方法、验证、复杂度、trade-off 与 synthesis |
+| **事实安全** | 不把 JD 技能写成候选人经历，不拼接数字、工具、ownership 或项目状态 |
+| **六维反馈报告** | Relevance、evidence、structure、specificity、delivery、role-specific reasoning |
+| **新加坡本地边界** | Work Authorisation、薪资、敏感问题；区分当前 TGFEP 与预计 2027 年底生效的 WFA |
+
+---
+
+## 安装 / Installation
+
+1. 下载 [简历写作 Skill ZIP](https://raw.githubusercontent.com/raineydiary/singapore-career-skills/main/dist/sg-resume-writing.zip) 或 [面试准备 Skill ZIP](https://raw.githubusercontent.com/raineydiary/singapore-career-skills/main/dist/sg-interview-prep.zip)
+2. 打开 claude.ai → Settings → Capabilities → 确认 **Code execution and file creation** 已开启
+3. 在 Skills 区域点击 **Upload skill**，选择下载的 `.skill` 文件
+4. 确认开关打开，新开一个对话即可使用
+
+> 若文件选择器不接受 `.skill` 后缀，把文件重命名为 `.zip` 再上传，内容完全一致。
+
+小红书中文版可直接下载：[`sg-interview-prep-lite.skill`](dist/sg-interview-prep-lite.skill)；备用 [`sg-interview-prep-lite.zip`](dist/sg-interview-prep-lite.zip)。
+
+**开始使用：**
+
+```
+「帮我看看这份简历，我要投新加坡的岗位」+ 上传简历（中文的也可以）
+「我是 NTU 大三学生，帮我写一份新加坡实习简历」
+「新加坡简历要放照片吗？」
+「请用 NUS-aligned 单栏格式输出，不要改变我上传模板的字体和 section 顺序」
+「请输出 ATS-safe LaTeX，同时给我 .tex 和编译后的 PDF」
+
+「我下周面试新加坡的 data analyst，这是 JD，帮我准备」
+「帮我模拟面试」
+「面试官问我打不打算生孩子，我该怎么回答？」
+```
+
+## 测试 / Evaluation
+
+两个 Skills 都附带可重复运行、隐私安全的 synthetic tests，不使用真实学生简历或个人资料。
+
+### 简历 Skill
+
+10 个虚构学生与 early-career profiles，覆盖本科、硕士、PhD、转职、NS、Work Authorization、敏感信息、缺失数字、单点问答及 MBA admissions 例外。
+
+- 核心 cases 与逐条 expectations：[`sg-resume-writing/evals/evals.json`](sg-resume-writing/evals/evals.json)
+- 测试说明：[`sg-resume-writing/evals/README.md`](sg-resume-writing/evals/README.md)
+- 最新回归结果：[`sg-resume-writing/evals/RESULTS.md`](sg-resume-writing/evals/RESULTS.md)
+- 下一阶段 edge-case backlog：[`sg-resume-writing/evals/backlog.md`](sg-resume-writing/evals/backlog.md)
+- 可直接复制的 prompt 与输出格式：[`sg-resume-writing/PROMPT_EXAMPLES.md`](sg-resume-writing/PROMPT_EXAMPLES.md)
+
+### 面试 Skill
+
+10 名虚拟学生，覆盖 9 类热门技术与非技术岗位、主要面试轮次与 69 项预设行为检查。
+
+- 核心 cases 与逐条 expectations：[`sg-interview-prep/evals/evals.json`](sg-interview-prep/evals/evals.json)
+- 10 名虚拟学生模拟记录：[`sg-interview-prep/evals/SIMULATIONS.md`](sg-interview-prep/evals/SIMULATIONS.md)
+- 最新结果与限制：[`sg-interview-prep/evals/RESULTS.md`](sg-interview-prep/evals/RESULTS.md)
+- 可直接复制的 prompts：[`sg-interview-prep/PROMPT_EXAMPLES.md`](sg-interview-prep/PROMPT_EXAMPLES.md)
+- 小红书 8 页图文脚本：[`sg-interview-prep-lite/XHS_COPY.md`](sg-interview-prep-lite/XHS_COPY.md)
+
+真实 CV 或面试内容只用于第二阶段验证：必须先匿名化，并且不得把原文、可识别输出或敏感 diff 提交到公开仓库。
+
+---
+
+## 规则来源 / Sources
+
+所有规则均可溯源至以下官方材料。本仓库不再分发原始文件，仅提供链接。
+
+**NUS Centre for Future-ready Graduates**
+- [Create an Impressive Resume](https://nus.edu.sg/cfg/students/career-resources/create-an-impressive-resume)
+- [Ace Your Job Interview](https://nus.edu.sg/cfg/students/career-resources/ace-your-job-interview)
+- [Interview Framework (PDF)](https://nus.edu.sg/cfg/docs/default-source/students/career-resources/ace-your-job-interview/interview-framework.pdf)
+- [Pre-Interview Preparation (PDF)](https://nus.edu.sg/cfg/docs/default-source/students/career-resources/ace-your-job-interview/pre-interview-preparation.pdf)
+- [Interview Beyond Basics (PDF, FASS)](https://fass.nus.edu.sg/wp-content/uploads/2025/06/Interview-Beyond-Basics-Abridged.pdf)
+- NUS MSc 简历模板（校内材料）
+
+**NTU Career & Attachment Office**
+- [Resume Do's and Don'ts](https://www.careertracks.edu.sg/career-skills-and-advice/resume-dos-and-donts/)
+- [Tips to Ace Your Job Interviews](https://www.careertracks.edu.sg/career-skills-and-advice/tips-to-ace-your-job-interviews/)
+- [How to Answer Common Job Interview Questions](https://www.careertracks.edu.sg/career-skills-and-advice/how-to-answer-common-job-interview-questions/)
+- [Tips to Ace Your Online Interviews](https://www.careertracks.edu.sg/career-skills-and-advice/tips-to-ace-your-online-interviews/)
+- [Tips to Ace Case Interviews](https://www.careertracks.edu.sg/career-skills-and-advice/tips-to-ace-case-interviews/)
+- [NBS Job Interview Guide (PDF)](https://www.ntu.edu.sg/docs/librariesprovider150/default-document-library/job-interview-guide.pdf)
+- [NBS: Crafting a Perfect Resume](https://blogs.ntu.edu.sg/nbsgradstudies/2016/05/19/crafting-a-perfect-resume/)
+- NTU CAO 样本简历与检查清单（校内材料）
+
+**SMU Dato' Kho Hui Meng Career Centre**
+- SMU Postgraduate Standard Résumé Specifications（校内材料）
+- SMU List of Action Verbs for Resumes（校内材料）
+
+**TAFEP（新加坡公平与进步雇佣联盟）**
+- [Tripartite Guidelines on Fair Employment Practices](https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines)
+- [Recruitment: Fair and Merit-Based Hiring](https://www.tal.sg/tafep/employment-practices/recruitment)
+- [Workplace Fairness Act: Employer Guide](https://www.tal.sg/tafep/workplace-fairness/employer)
+- [Fair Job and Employment Application Forms](https://www.tal.sg/tafep/employment-practices/recruitment/preparing-job-application-forms)
+- Examples of Non-Discriminatory Interview Questions（TAFEP 官方题库）
+
+---
+
+## 免责声明 / Disclaimer
+
+这些 Skills 是对公开与半公开官方材料的独立提炼与整理，与 NUS、NTU、SMU、TAFEP 均无隶属关系，也未获其背书。规范与政策会随时间变化，重要决定请以官方最新发布为准。
+
+These skills are an independent distillation of official materials. They are not affiliated with or endorsed by NUS, NTU, SMU, or TAFEP. Standards and policies change over time — always verify against the latest official sources for important decisions.
+
+---
+
+## 路线图 / Roadmap
+
+- [x] `sg-resume-writing` — 简历
+- [x] `sg-interview-prep` — 面试
+- [ ] `sg-offer-navigator` — Offer 解读与薪资谈判（CPF、AWS、EP 门槛）
+
+---
+
+## License
+
+MIT — 自由使用、修改、分发，保留署名即可。
+
+## 关于作者 / About
+
+**Rain 雨雨小天才** · Singapore
+
+新加坡大厂面试官，经手过 1000+ 份简历、面过 200+ 位候选人。做这些 Skills，是想把华语求职者在新加坡最真实的信息差，一次补齐。
+
+| 平台 | 内容 |
+|---|---|
+| 📕 小红书 | **雨雨小天才** ——  我的职场分享与个人成长旅程 |
+| 📣 公众号 | **狮城职场SG Career** —— 日更优质岗位内推，每月举办 SG 本地职场社交活动 |
+
+如果这些 Skills 帮到了你，欢迎回来点个 ⭐ Star。
