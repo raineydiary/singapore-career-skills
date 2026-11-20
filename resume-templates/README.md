@@ -14,3 +14,5 @@
 ## Skills
 
 [简历写作 Skill](https://github.com/raineydiary/singapore-career-skills/tree/main/sg-resume-writing) · [面试准备 Skill](https://github.com/raineydiary/singapore-career-skills/tree/main/sg-interview-prep)
+
+[AI 求职工作台](https://bxikqubiu0oki.space.mcode.cn/index.html) · [更多名校求职资源](more-resources.md)
