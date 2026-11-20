@@ -1,0 +1,16 @@
+[
+  {
+    "name": "sg-resume-writing",
+    "source_commit": "e1155267b99416583923a2759a38f5850a03d3f4",
+    "source_url": "https://github.com/raineydiary/singapore-career-skills/tree/e1155267b99416583923a2759a38f5850a03d3f4/sg-resume-writing",
+    "files": 10,
+    "sha256": "67fddf2b7fbcba4d594a66b72cf9f7aedaad97674eaeb5378aa36b9ef3072739"
+  },
+  {
+    "name": "sg-interview-prep",
+    "source_commit": "e1155267b99416583923a2759a38f5850a03d3f4",
+    "source_url": "https://github.com/raineydiary/singapore-career-skills/tree/e1155267b99416583923a2759a38f5850a03d3f4/sg-interview-prep",
+    "files": 13,
+    "sha256": "f56f1ff0a0d3c3f3c6db9632f17a2eade2e34d7f41dd4181b4f40bf4c64ed06c"
+  }
+]
