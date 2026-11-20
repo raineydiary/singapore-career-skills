@@ -8,7 +8,7 @@
 
 [下载简历写作 Skill ZIP](https://raw.githubusercontent.com/raineydiary/singapore-career-skills/main/dist/sg-resume-writing.zip) · [下载面试准备 Skill ZIP](https://raw.githubusercontent.com/raineydiary/singapore-career-skills/main/dist/sg-interview-prep.zip)
 
-[AI 求职工作台](https://bxikqubiu0oki.space.mcode.cn/index.html)
+[AI 求职工作台](https://bxikqubiu0oki.space.mcode.cn/index.html) · [工作台源码 ZIP](https://raw.githubusercontent.com/raineydiary/singapore-career-skills/main/career-workbench/SG-Career-Workbench.zip)
 
 <details>
 <summary>更多名校求职资源</summary>
