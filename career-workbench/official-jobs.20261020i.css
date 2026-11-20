@@ -1,0 +1,8 @@
+.official-job-list{list-style:none;padding:0;margin:18px 0}
+.official-job-list li{padding:18px 0;border-bottom:1px solid #eee9dc;line-height:1.75}
+.official-job-list li:last-child{border-bottom:0}
+.official-job-list a{color:#66520d;text-decoration:underline;text-underline-offset:4px;font-size:18px}
+.official-job-list div{font-size:16px;margin-top:5px;overflow-wrap:anywhere}
+.official-job-list p{font-size:15px;color:#777269;margin:6px 0 0}
+#role-search-hint{margin:8px 0 18px;font-size:14px;line-height:1.7}
+#role-search-hint:empty{display:none}

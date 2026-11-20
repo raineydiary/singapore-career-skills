@@ -1,0 +1,9 @@
+/* KISS result cards only. Keep layout, type, radius and all other cards intact. */
+#page .kiss-grid > section:nth-child(1){background:#eff6ed;border-color:#d4e3cf}
+#page .kiss-grid > section:nth-child(1) > small{color:#476342}
+#page .kiss-grid > section:nth-child(2){background:#fff4e5;border-color:#eed8b3}
+#page .kiss-grid > section:nth-child(2) > small{color:#806027}
+#page .kiss-grid > section:nth-child(3){background:#edf4fa;border-color:#d2e0ec}
+#page .kiss-grid > section:nth-child(3) > small{color:#496980}
+#page .kiss-grid > section:nth-child(4){background:#fbeff0;border-color:#ecd4d8}
+#page .kiss-grid > section:nth-child(4) > small{color:#8a545c}

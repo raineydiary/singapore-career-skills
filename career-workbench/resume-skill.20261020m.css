@@ -1,0 +1,15 @@
+.skill-credit{font-size:13px;color:#74662c;align-self:center;line-height:1.7}
+.skill-credit small{display:block;color:#817b6b;font-size:12px}
+.resume-action-title{display:flex;align-items:center;gap:12px}
+.resume-action-copy{font-size:16px;color:#776f60;margin:8px 0 18px;line-height:1.8}
+.resume-notes{white-space:normal}
+.resume-note{padding:24px 26px;margin:18px 0;border:1px solid #eae6da;border-radius:14px;background:#fffef9}
+.resume-note h3{font-size:20px;line-height:1.6;margin:0 0 18px;color:#28261f}
+.resume-note p,.resume-note li{font-size:17px;line-height:1.9;margin:10px 0;white-space:pre-wrap}
+.resume-note ul{padding-left:24px;margin:0}
+.resume-note strong{color:#292718;font-weight:700;background:linear-gradient(transparent 60%,#fff1aa 60%);padding:0 2px}
+.resume-note--keep{border-left:4px solid #ddc96c}
+.resume-note--improve{border-left:4px solid #f0ca1e;background:#fffbea}
+.resume-note--caution{border:1px solid #c9ad53;border-left:4px solid #8b7225;background:#fff8df}
+.resume-note--draft{background:#fff}
+@media(max-width:720px){.resume-note{padding:20px 18px}.skill-credit{flex-basis:100%}.resume-note p,.resume-note li{font-size:16px}}

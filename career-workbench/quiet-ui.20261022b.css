@@ -1,0 +1,68 @@
+/* A quieter interface: task labels first, one primary action per stage. */
+[hidden]{display:none!important}
+.side #nav{margin-top:44px}
+.side footer{line-height:1.6}
+#page .hero{min-height:150px;padding:36px 40px}
+#page .hero h1{margin:0}
+#page .card{min-height:176px;padding:28px 30px;display:flex;flex-direction:column;align-items:flex-start}
+#page .card h2{margin:18px 0 22px}
+#page .card strong{margin-top:auto;font-size:14px}
+#page .draw-link{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:26px 30px}
+#page .draw-link span{font-size:14px}
+#page .draw-link::after{content:none}
+#page .page-head{margin-bottom:36px}
+#page .page-head h1{margin-bottom:0}
+#page .page-head .skill-credit{margin:16px 0 0;font-size:13px;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+#page .skill-credit small{font-size:12px;font-weight:400;color:#827d72}
+#page .project-strip{padding:20px 26px;margin-bottom:28px}
+#page .project-strip strong{font-size:18px}
+#page .project-strip p{font-size:13px}
+#page .research-overview{align-items:center;margin:30px 0 18px}
+#page .research-overview h2{font-size:20px;margin:0}
+#page .research-overview #generate{background:#ffe452;border-color:#ffe452;color:#2b2615}
+#page .dimension-card{padding:28px}
+#page .dimension-card h2{margin:14px 0 12px}
+#page .dimension-question{min-height:0;margin-bottom:24px;color:#716c62;font-size:14px;line-height:1.7}
+#page .dimension-empty{margin-top:0;padding-top:20px}
+#page .dimension-empty:not(.has-result){color:#989187}
+#page .workflow-action h2{font-size:20px;margin-bottom:22px}
+#page .workflow-action .actions{gap:18px}
+#page .question-picker .section-heading{gap:24px;align-items:center}
+#page .question-picker h2,#page .answer-panel h2{font-size:20px}
+#page .question-picker .hint{font-size:13px;margin:8px 0 0}
+#page .round-control{display:flex;align-items:center;gap:12px;margin:0;font-size:13px;color:#716c62}
+#page .round-control select{min-width:108px;font-size:14px;padding:10px 12px}
+#page .question-grid{grid-template-columns:1fr;gap:10px;margin:16px 0 0}
+#page .question-card{display:grid;grid-template-columns:24px 1fr;gap:6px 14px;padding:18px 20px;background:#fff;min-height:0}
+#page .question-card small{grid-row:1/3;align-self:start;padding-top:3px;font-size:12px}
+#page .question-card strong{font-size:16px;line-height:1.6;font-weight:600}
+#page .question-card span{grid-column:2;font-size:13px;line-height:1.6}
+#page .question-card:hover,#page .question-card[aria-pressed=true]{border-color:#d6b621;background:#fffbdf}
+#page .bank-actions{margin:18px 0 0}
+#page .bank-actions button:not(.primary){background:transparent;border:0;padding:8px 0;min-height:34px;font-size:14px;text-decoration:underline;text-underline-offset:4px}
+#page .question-picker .consent{margin-top:24px}
+#page #question-library{margin:22px 0 0}
+#page #question-library summary{font-size:14px}
+#page .selected-question{font-size:18px;line-height:1.75;margin:22px 0;padding:16px 20px}
+#page .answer-panel label[for=answer]{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+#page .answer-panel textarea{font-size:16px;line-height:1.8;min-height:190px}
+#page .voice-tools button{font-size:13px;padding:8px 12px;min-height:36px}
+#page .voice-tools label,#page .voice-tools select{font-size:12px}
+#page .practice-submit:has(>#generate[hidden]){margin:0}
+#page .practice-submit .skill-credit{font-size:13px;margin:12px 0}
+#page #result-actions{border-top:1px solid #eee8dd;padding-top:18px;gap:22px}
+#page #result-actions button,#page .result-more summary{background:transparent;border:0;font-size:14px;padding:8px 0;min-height:34px;color:#5e594e}
+#page #result-actions button:hover{color:#171717;text-decoration:underline;text-underline-offset:4px}
+#page .result-more{margin-left:auto;position:relative}
+#page .result-more button{position:absolute;right:0;top:100%;white-space:nowrap;background:#fff!important;border:1px solid #e8e2d5!important;padding:10px 14px!important;border-radius:10px;z-index:2}
+#page #run-status:empty,#page #result-meta:empty{display:none}
+@media(max-width:850px){
+  .side #nav{margin-top:16px}
+  #page .hero{min-height:120px;padding:26px}
+  #page .card{min-height:154px;padding:24px}
+  #page .draw-link{padding:24px}
+  #page .question-picker .section-heading{flex-wrap:wrap;gap:16px}
+  #page .question-card{padding:16px}
+  #page .page-head .skill-credit{gap:6px}
+  #page .dimension-card{padding:24px}
+}
