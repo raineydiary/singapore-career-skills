@@ -7,8 +7,8 @@
 | 资源 | 内容 | 下载 / 使用 |
 |---|---|---|
 | 📚 **名校简历包** | NTU、NUS、Harvard、UPenn、Yale、INSEAD，六份 PDF / Word | **[下载 ZIP](https://raw.githubusercontent.com/raineydiary/singapore-career-skills/main/resume-templates/SG-Career-Resume-Templates.zip)** |
-| 📄 **简历写作 Skill** | 简历撰写、修改与岗位匹配 | **[下载 Skill ZIP](https://raw.githubusercontent.com/raineydiary/singapore-career-skills/main/dist/sg-resume-writing.zip)** |
-| 🎤 **面试准备 Skill** | 面试准备、模拟面试与反馈 | **[下载 Skill ZIP](https://raw.githubusercontent.com/raineydiary/singapore-career-skills/main/dist/sg-interview-prep.zip)** |
+| 📄 **简历写作 Skill** | 简历撰写、修改与岗位匹配 | **[查看 Skill](https://github.com/raineydiary/singapore-career-skills/tree/main/sg-resume-writing)** · [SKILL.md](https://github.com/raineydiary/singapore-career-skills/blob/main/sg-resume-writing/SKILL.md) · [完整包](https://raw.githubusercontent.com/raineydiary/singapore-career-skills/main/dist/sg-resume-writing.zip) |
+| 🎤 **面试准备 Skill** | 面试准备、模拟面试与反馈 | **[查看 Skill](https://github.com/raineydiary/singapore-career-skills/tree/main/sg-interview-prep)** · [SKILL.md](https://github.com/raineydiary/singapore-career-skills/blob/main/sg-interview-prep/SKILL.md) · [完整包](https://raw.githubusercontent.com/raineydiary/singapore-career-skills/main/dist/sg-interview-prep.zip) |
 | 💻 **AI 求职工作台** | 岗位分析、公司调研、简历优化、面试陪练与复盘 | **[在线使用](https://bxikqubiu0oki.space.mcode.cn/index.html)** · [源码 ZIP](https://raw.githubusercontent.com/raineydiary/singapore-career-skills/main/career-workbench/SG-Career-Workbench.zip) |
 
 简历包下载后解压使用；Skills 用于支持自定义 Skill 的 AI 工具；工作台点击「在线使用」即可打开。
